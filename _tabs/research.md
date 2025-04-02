@@ -1,5 +1,5 @@
 ---
-title: Research
+layout: Research
 icon: fas fa-user  # optional Font Awesome icon
 order: 3           # controls tab order
 ---

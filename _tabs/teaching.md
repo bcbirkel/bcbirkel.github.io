@@ -1,5 +1,5 @@
 ---
-title: Teaching
+layout: Teaching
 icon: fas fa-user  # optional Font Awesome icon
 order: 4           # controls tab order
 ---
