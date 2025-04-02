@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: about me
 icon: fas fa-user  # optional Font Awesome icon
 order: 1           # controls tab order
 ---

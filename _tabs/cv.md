@@ -1,5 +1,6 @@
 ---
-layout: cv
+layout: page
+title: cv
 icon: fas fa-user  # optional Font Awesome icon
 order: 2           # controls tab order
 ---
