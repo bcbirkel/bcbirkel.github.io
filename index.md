@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: page
 title: Home
+permalink: /
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">

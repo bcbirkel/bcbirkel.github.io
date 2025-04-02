@@ -39,10 +39,12 @@ worldview of geophysics; interplay of media, government and lobbyists with hazar
 <style>
   .swiper {
     width: 100%;
-    max-width: 600px;
-    margin: 2em auto;
-    padding: 1em;
-    box-sizing: border-box;
+    max-width: 900px; /* wider than before */
+    margin: 2.5em auto;
+    padding: 2em 1.5em;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .swiper-wrapper {
@@ -51,41 +53,46 @@ worldview of geophysics; interplay of media, government and lobbyists with hazar
 
   .swiper-slide {
     box-sizing: border-box;
-    padding: 1em;
+    padding: 1.5em;
   }
 
   .swiper-slide blockquote {
     font-style: italic;
+    font-size: 1.25rem; /* bigger text */
+    line-height: 1.8;
     margin: 0;
+    color: #333;
   }
 
   .swiper-slide footer {
     text-align: right;
-    font-size: 0.9em;
-    margin-top: 0.5em;
+    font-size: 1rem;
+    margin-top: 1em;
     color: #666;
   }
 
   .swiper-button-prev,
   .swiper-button-next {
-    color: #888;
-    width: 30px;
-    height: 30px;
+    color: #666;
+    width: 40px;
+    height: 40px;
     top: 50%;
     transform: translateY(-50%);
   }
 
   .swiper-button-prev::after,
   .swiper-button-next::after {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .swiper-pagination-bullet {
     background: #bbb;
+    width: 12px;
+    height: 12px;
   }
 
   .swiper-pagination-bullet-active {
-    background: #333;
+    background: #444;
   }
 </style>
 
