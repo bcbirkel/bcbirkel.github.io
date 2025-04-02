@@ -5,9 +5,13 @@ icon: fas fa-chalkboard-teacher  # optional Font Awesome icon
 order: 4           # controls tab order
 ---
 
-Teaching is one of my favorite parts of academic life — I love helping students build intuition around complex Earth systems.
+### Teaching Philosophy
 
-### Courses I've Taught or TA'd:
+Teaching is one of my favorite parts of academic life — I love helping students build intuition around complex Earth systems. My approach to teaching emphasizes curiosity, real-world relevance, and active engagement. I aim to create an inclusive, supportive learning environment where students feel confident asking questions and exploring ideas.
+
+---
+
+### Courses I've been a TA for:
 
 - **CORE 103: Processes of Change in Science** - University of Southern California
   Focus: Social and economic impacts of natural hazards; power and limitations of science to improve our lives through the
@@ -24,11 +28,6 @@ worldview of geophysics; interplay of media, government and lobbyists with hazar
 
 ---
 
-### Teaching Philosophy
-
-My approach to teaching emphasizes curiosity, real-world relevance, and active engagement. I aim to create an inclusive, supportive learning environment where students feel confident asking questions and exploring ideas.
-
----
 ### Student Reviews
 
 <!-- Swiper CSS -->
@@ -117,10 +116,6 @@ My approach to teaching emphasizes curiosity, real-world relevance, and active e
   document.addEventListener("DOMContentLoaded", function () {
     new Swiper(".mySwiper", {
       loop: true,
-      autoplay: {
-        delay: 5000, // 5 seconds per slide
-        disableOnInteraction: false, // keeps autoplay running after user interacts
-      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -132,4 +127,3 @@ My approach to teaching emphasizes curiosity, real-world relevance, and active e
     });
   });
 </script>
-
