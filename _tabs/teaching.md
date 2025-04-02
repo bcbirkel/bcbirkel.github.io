@@ -37,7 +37,50 @@ My approach to teaching emphasizes curiosity, real-world relevance, and active e
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
 />
 
-<div class="swiper mySwiper" style="margin-top: 1em;">
+<style>
+  .swiper {
+    width: 100%;
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+  }
+
+  .swiper-slide blockquote {
+    font-style: italic;
+    margin: 0;
+  }
+
+  .swiper-slide footer {
+    text-align: right;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    color: #666;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #888;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 20px;
+  }
+
+  .swiper-pagination-bullet {
+    background: #bbb;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #333;
+  }
+</style>
+
+<div class="swiper mySwiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
       <blockquote>
@@ -74,6 +117,10 @@ My approach to teaching emphasizes curiosity, real-world relevance, and active e
   document.addEventListener("DOMContentLoaded", function () {
     new Swiper(".mySwiper", {
       loop: true,
+      autoplay: {
+        delay: 5000, // 5 seconds per slide
+        disableOnInteraction: false, // keeps autoplay running after user interacts
+      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -85,3 +132,4 @@ My approach to teaching emphasizes curiosity, real-world relevance, and active e
     });
   });
 </script>
+
