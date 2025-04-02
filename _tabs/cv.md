@@ -1,6 +1,6 @@
 ---
 layout: page
-title: cv
+title: CV
 icon: fas fa-file-alt  # optional Font Awesome icon
 order: 2           # controls tab order
 ---
