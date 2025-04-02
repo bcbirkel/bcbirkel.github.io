@@ -32,25 +32,21 @@ My approach to teaching emphasizes curiosity, real-world relevance, and active e
 
 ### Student Reviews
 
-<div class="testimonial-carousel">
-  <input type="radio" name="review" id="rev1" checked>
-  <input type="radio" name="review" id="rev2">
-  <input type="radio" name="review" id="rev3">
-
-  <div class="testimonials">
-    <div class="review" id="review1">
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
       <blockquote>
         “Brianna explained complex topics so clearly. Her passion for seismology made the class way more engaging!”
         <footer>– GEOL 240 Student, Fall 2024</footer>
       </blockquote>
     </div>
-    <div class="review" id="review2">
+    <div class="swiper-slide">
       <blockquote>
         “Easily one of the most supportive TAs I’ve had — she really cared whether we understood the material.”
         <footer>– Student Evaluation</footer>
       </blockquote>
     </div>
-    <div class="review" id="review3">
+    <div class="swiper-slide">
       <blockquote>
         “Great at answering questions and super approachable. 10/10 would recommend.”
         <footer>– Anonymous Feedback</footer>
@@ -58,10 +54,10 @@ My approach to teaching emphasizes curiosity, real-world relevance, and active e
     </div>
   </div>
 
-  <div class="carousel-nav">
-    <label for="rev1"></label>
-    <label for="rev2"></label>
-    <label for="rev3"></label>
-  </div>
-</div>
+  <!-- If you want navigation arrows -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 
+  <!-- Pagination dots -->
+  <div class="swiper-pagination"></div>
+</div>
