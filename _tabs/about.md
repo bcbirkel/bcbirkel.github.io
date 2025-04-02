@@ -1,5 +1,5 @@
 ---
-layout: About Me
+layout: about
 icon: fas fa-user  # optional Font Awesome icon
 order: 1           # controls tab order
 ---
