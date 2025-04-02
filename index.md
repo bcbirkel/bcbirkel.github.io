@@ -1,3 +1,5 @@
 ---
-layout: home
+layout: null
+permalink: /
+redirect_to: /about/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: research
-icon: fas fa-user  # optional Font Awesome icon
+icon: fa-solid fa-chart-line  # optional Font Awesome icon
 order: 3           # controls tab order
 ---
 

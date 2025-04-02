@@ -1,7 +1,7 @@
 ---
 layout: page
 title: teaching
-icon: fas fa-user  # optional Font Awesome icon
+icon: fas fa-chalkboard-teacher  # optional Font Awesome icon
 order: 4           # controls tab order
 ---
 
