@@ -29,10 +29,15 @@ worldview of geophysics; interplay of media, government and lobbyists with hazar
 My approach to teaching emphasizes curiosity, real-world relevance, and active engagement. I aim to create an inclusive, supportive learning environment where students feel confident asking questions and exploring ideas.
 
 ---
-
 ### Student Reviews
 
-<div class="swiper">
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<div class="swiper mySwiper" style="margin-top: 1em;">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
       <blockquote>
@@ -54,10 +59,29 @@ My approach to teaching emphasizes curiosity, real-world relevance, and active e
     </div>
   </div>
 
-  <!-- If you want navigation arrows -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-
-  <!-- Pagination dots -->
+  <!-- Pagination (dots) -->
   <div class="swiper-pagination"></div>
+
+  <!-- Navigation (arrows) -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 </div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".mySwiper", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  });
+</script>
