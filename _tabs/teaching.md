@@ -39,7 +39,7 @@ worldview of geophysics; interplay of media, government and lobbyists with hazar
 <style>
   .swiper {
     width: 100%;
-    max-width: 900px; /* wider than before */
+    max-width: 900px;
     margin: 2.5em auto;
     padding: 2em 1.5em;
     background-color: #f9f9f9;
@@ -47,21 +47,23 @@ worldview of geophysics; interplay of media, government and lobbyists with hazar
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
-  .swiper-wrapper {
-    box-sizing: border-box;
+  .swiper-slide {
+    background-color: inherit; /* same as .swiper */
+    padding: 1.5em;
+    border-radius: 8px;
   }
 
-  .swiper-slide {
-    box-sizing: border-box;
-    padding: 1.5em;
+  .swiper-slide blockquote,
+  .swiper-slide footer {
+    background: transparent !important;
+    color: #333;
   }
 
   .swiper-slide blockquote {
     font-style: italic;
-    font-size: 1.25rem; /* bigger text */
+    font-size: 1.25rem;
     line-height: 1.8;
     margin: 0;
-    color: #333;
   }
 
   .swiper-slide footer {
@@ -95,6 +97,7 @@ worldview of geophysics; interplay of media, government and lobbyists with hazar
     background: #444;
   }
 </style>
+
 
 
 <div class="swiper mySwiper">
